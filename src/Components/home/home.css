@@ -1,0 +1,99 @@
+:root {
+    --purple: #9D4EDD;
+    --lightpurple: rgba(157, 78, 221, 0.2);
+    --white: #FFFFFF;
+    --black: #000000;
+    --blue: #0080FF;
+    --lightblue: rgba(0, 128, 255, 0.2);
+    --orange: #FC3400;
+    --lightorange: rgba(252, 52, 0, 0.2);
+    --green: #1DBF73;
+    --lightgreen: rgba(29, 191, 115, 0.2);
+    --teel: #3C6E71;
+    --lightteel: rgba(60, 110, 113, 0.2);
+    --grey: #84818A;
+    --lightgrey: #B0B7C3;
+    --lightgrey2: #F8F8F8;
+    --lightgrey3: #EAEAEA;
+  }
+  .mndashboard{
+    background-color: var(--lightgrey3);
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+  }
+  .cardspar{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 1rem;
+  }
+  .tablehome{
+    background-color: var(--white);
+    margin: .5rem 1rem;
+    padding: 1rem 1rem;
+    border-radius: .5rem;
+  }
+  .headertable{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .htlp{
+    display: flex;
+    flex-direction: column;
+  }
+  .htlp div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .searchboxtb{
+    background-color:var(--lightgrey3);
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding: .3rem .3rem;
+    border-radius: .4rem;
+  }
+  .searchboxtb input{
+    outline: none;
+    width: 90%;
+    padding: .3rem .2rem;
+    border: none;
+    background-color: var(--lightgrey3);
+  }
+  .searchboxtb input::placeholder{
+    color: var(--grey);
+  }
+  .tblright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .bgtb{
+    height: 10;
+    width: 10;
+    border-radius: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .tblfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0rem;
+  }
+  .tblfooter p{
+    color: var(--grey);
+  }
+  .pagno{
+    background-color: var(--blue);
+    color: var(--white);
+    margin: 0rem .1rem;
+    padding: .2rem .4rem;
+    border-radius: .2rem;
+  }

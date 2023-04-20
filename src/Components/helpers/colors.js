@@ -1,0 +1,19 @@
+const colors={
+    purple:"#9D4EDD",
+    lightpurple:"rgba(157, 78, 221,0.2)",
+    white:"#FFFFFF",
+    black:"#000000",
+    blue:"#0080FF",
+    lightblue:"rgba(0, 128, 255,0.2)",
+    orange:"#FC3400",
+    lightorange:"rgba(252, 52, 0,0.2)",
+    green:"#1DBF73",
+    lightgreen:"rgba(29, 191, 115,0.2)",
+    teel:"#3C6E71",
+    lightteel:"rgba(60, 110, 113,0.2)",
+    grey:"#84818A",
+    lightgrey:"#B0B7C3",
+    lightgrey2:"#F8F8F8",
+    lightgrye3:"#EAEAEA",
+}
+export default colors
